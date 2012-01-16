@@ -1,0 +1,56 @@
+body {
+  background-color: #fff;
+  color: #00333;
+  font-family: helvetica, verdana, arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+p, ol, ul, td {
+  font-family: helvetica,verdana, arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px; padding:6px}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px; }
+
+a {
+  color: #0033cc;
+  &:visited {
+    color: #0033cc; }
+  &:hover {
+    color: #fff;
+    background-color: #0033cc; } }
+
+div {
+  &.field, &.actions {
+    margin-bottom: 12px; } }
+
+#notice {
+  color: green; }
+
+.field_with_errors {
+  padding: 2px;
+  background-color: orange;
+  display: table; }
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid orange;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #cc6;
+    color: #fff; }
+  ul li {
+    font-size: 12px;
+    list-style: square; } }
